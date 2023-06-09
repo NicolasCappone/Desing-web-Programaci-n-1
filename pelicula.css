@@ -1,0 +1,425 @@
+*{box-sizing: border-box;
+margin:0;
+padding:0}
+
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+
+body {
+  font-family: "Nunito" , sans-serif;
+  background-image: url("https://media.moddb.com/images/groups/1/2/1488/The_Lonely_Mountain-The_Desolation_of_Smaug_Wallpaper.jpg");
+  background-attachment: fixed;
+
+}
+
+div.modal-footer button.btn.btn-secondary {
+  font-size:20px;
+  background-color:lightblue;
+  border-radius:25px;
+  border:1px grey solid;
+  color:black;
+}
+div.modal-footer button.inicio {
+  background-color:lightgreen;
+  font-size:23px;
+  width:90px;
+}
+div.modal-footer button.inicio:hover{
+  transform: scale(1.1);
+}
+div.modal-footer button.btn.btn-secondary:hover{
+  transform: scale(1.1);
+}
+.Botonsesion {
+  margin-left: 5px;
+  background-color: #ffc168;
+  border-color:teal;
+  color: teal;
+}
+
+.Botonsesion:hover{
+  background-color: teal;
+  border-color: #ffc168;
+  color: white;
+}
+
+div.modal-footer a button.register {
+  margin-right:220px;
+}
+
+div.infogral{
+  margin-bottom:40px;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 15;
+}
+
+.miBoton {
+  background-color: #ffc168;
+  border-color:teal;
+  color: teal;
+}
+.miBoton:hover{
+  background-color: teal;
+  border-color: #ffc168;
+  color: white;
+}
+a.navbar-brand img{
+  width: 50px;
+}
+
+div.titulopeli{
+  background-color: teal;
+  margin-bottom:15px;
+}
+
+div.titulopeli h1{
+  background-color: black;
+  color: white;
+  padding-left:15px;
+  font-size:50px;
+  text-align: center;
+  font-family: fantasy;
+  text-transform:uppercase;
+
+
+}
+div.infogral h2 {
+  text-decoration:none;
+
+}
+
+div.infopeli {
+  background-color:  teal;
+overflow: hidden;
+  width: 100%;
+
+
+}
+
+
+div.portada {
+  float: left;
+
+    width:40%;
+}
+
+div.portada img{
+border:10px black solid;
+  margin-left: 7%;
+  width: 80%;
+  heigh:60%;
+  margin-top:35px;
+  margin-bottom:35px;
+  }
+div.infogral h3 {
+  padding-left:13px;
+  padding-right:13px;
+}
+div.infogral h2 {
+  padding-left:7px;
+  color:white;
+  padding-top:10px;
+}
+  div.infogral {
+  margin-top:35px;
+    color:white;
+    float: left;
+    width: 60%;
+    background-color:black;
+    position:relative;
+    right:30px;
+    height:50%;
+  }
+
+ div.infogral iframe {
+   margin-left: 15%;
+   margin-top: 5%;
+   margin-bottom: 5%;
+ }
+
+ footer {
+   background-color: whitesmoke;
+
+ }
+ footer img {
+   width: 50px;
+   margin-left: 48.5%;
+   margin-bottom: 20px;
+
+ }
+ footer p {
+   text-align: center;
+   width: 35%;
+  margin-left: 33%;
+
+ }
+img.image {
+  width:8%;
+  padding-top:
+}
+div.e {
+  padding-top:10px;
+  float:left;
+}
+ div.estrella {
+  overflow:hidden;
+   float: left;
+   border-radius:20px;
+   border:10px black solid;
+   background-color:grey;
+  float:left;
+   margin-left:5%;
+   margin-bottom:20px;
+   width:44%;
+   height:13vh;
+
+ }
+ div.estrella img{
+   width:60px;
+   height:55px;
+   border-radius:11px;
+   margin-left: 3%;
+
+ }
+
+ div.estrella img:hover {
+   transform:scale(1.1);
+ }
+
+ div.recomendaciones {
+   background-color: teal;
+   height:70px;
+   overflow:hidden;
+  border-radius:30px;
+  width:35%;
+  margin-left:7px;
+  margin-bottom:-30px;
+ }
+div.recomendaciones button {
+  margin-left:20px;
+  position:relative;
+  top:25%;
+}
+ div.rec {
+   float:left;
+   padding-top:17px;
+
+ }
+ div.recomendaciones h2 {
+  color: white;
+   text-decoration:none;
+  margin-left:20px;
+  }
+
+div.recomendaciones button {
+  color: #ffc168;
+  border-color: #ffc168;
+  background-color: teal;
+}
+
+div.recomendaciones button:hover {
+  background-color: #ffc168;
+  border-color: white;
+  color: white;
+}
+
+@media only screen and (max-device-width : 480px) {
+    body {
+      background-image: url("https://travelgrafia.co/wp-content/uploads/2017/07/Puerto-nari%C3%B1o-Amazonas-Colombia.jpg")  ;
+      background-size:120% 100%;
+
+    }
+    footer p{
+      font-size:30px;
+      width:32%;
+      margin-left:34%;
+    }
+    footer img{
+      width:10%;
+      margin-left:46%;
+    }
+
+    div.collapse.navbar-collapse {
+      background-color:white;
+      width:100%;
+      font-size:28px
+    }
+
+    button.navbar-toggler {
+      width:10%;
+      height:10vh;;
+    }
+    div.navbar-collapse.collapse.show a img  {
+      margin-left:3vw;
+      width:10%;
+      height:10%;
+    }
+    li.nav-item{
+      margin-left:2vw;
+    }
+    form.form-inline.my-2.my-lg-0 button{
+      font-size:20px;
+    }
+    form input.form-control.mr-sm-2{
+      margin-left:2vw;
+      margin-bottom:2vw;
+      height:3vh;
+    }
+    header nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+      height:10vh;
+
+    }
+h3 {
+  font-size:40px;
+}
+ h2 {
+  font-size:50px;
+}
+    div.infogral {
+      position:relative;
+      bottom:-50vh;
+      left:5vw;
+      height:90vh;
+      width:90%;
+      top:1vh;
+    }
+    div.infopeli {
+      height:160vh;;
+    }
+    div.recomendaciones {
+      margin-bottom:1vh;
+    }
+    div.trailer iframe{
+      width:90%;
+      height:30vh;
+      margin-top:4vh;
+      margin-left:5vw;
+    }
+   div.estrella {
+    margin-top:2vh;
+     border:0px black solid;
+     width:52%;
+   height:7vh;
+
+   }
+   div.estrella h3{
+     padding-top:25px;
+   }
+   div.estrella img :hover {
+     transform: scale(1.2);
+   }
+   div.estrella img {
+     width:13%;
+     height:4vh;
+     position:relative;
+     top:-4.5vh;
+     left:36vw;
+   }
+   div.portada img {
+     width:180%;
+
+     position:relative;
+     left:11vw;
+   }
+   div.recomendaciones h2 {
+     text-decoration:none;
+   }
+   div.recomendaciones  h2 {
+     margin-left:5vw;
+     padding-top:1vh;
+   }
+   div.recomendaciones {
+     height:7vh;
+     width:65%;
+   }
+
+   div.recomendaciones button.btn.btn-outline-secondary.dropdown-toggle {
+   width:20%;
+   height:2vh;
+   font-size:30px;
+   margin-left:1vw;
+   padding-top:0.6vh;
+   border:none;
+
+   }
+   div.titulopeli h1 {
+     margin-top:5vh;
+     font-size:70px;
+
+   }
+   a.dropdown-item {
+     font-size:30px;
+   }
+   button.estrellita{
+     position:relative;
+     top:35px;
+   }
+
+  }
+
+  @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation:portrait){
+    body {
+      background-image: url("https://travelgrafia.co/wp-content/uploads/2017/07/Puerto-nari%C3%B1o-Amazonas-Colombia.jpg")  ;
+      background-size:120% 100%;
+
+    }
+    div.estrella {
+      height:7vh;
+    }
+    div.recomendaciones {
+      width:45%;
+    }
+    footer {
+      width:1200px;
+    }
+    footer p{
+      font-size:30px;
+      width:32%;
+      margin-left:34%;
+    }
+    footer img{
+      width:10%;
+      margin-left:46%;
+    }
+    header nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+      height:180px;
+
+    }
+    div.collapse.navbar-collapse {
+      background-color:white;
+      width:100%;
+      font-size:28px
+    }
+
+    button.navbar-toggler {
+      width:10%;
+      height:60px;;
+    }
+    div.navbar-collapse.collapse.show a img  {
+      margin-left:20px;
+      width:10%;
+      height:10%;
+    }
+    li.nav-item{
+      margin-left:20px;
+    }
+    form.form-inline.my-2.my-lg-0 button{
+      font-size:20px;
+    }
+    form input.form-control.mr-sm-2{
+      margin-left:18px;
+      margin-bottom:6px;
+      height:50px;
+    }
+    div.infopeli {
+      width:123vw;
+    }
+    div.titulopeli h1 {
+      width:123vw;
+      margin-top:10vh;
+      font-size:70px;
+    }
+    }

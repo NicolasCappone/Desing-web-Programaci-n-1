@@ -1,0 +1,310 @@
+*{box-sizing: border-box;
+margin:0;
+padding:0}
+
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+
+body {
+  font-family: "Nunito" , sans-serif;
+  width:100%;
+  background-image: url("https://media.moddb.com/images/groups/1/2/1488/The_Lonely_Mountain-The_Desolation_of_Smaug_Wallpaper.jpg");
+  background-attachment: fixed;
+}
+
+.Botonsesion {
+  margin-left: 5px;
+  background-color: #ffc168;
+  border-color:teal;
+  color: teal;
+}
+
+ul.listadoGeneros {
+  text-transform:uppercase;
+}
+.Botonsesion:hover{
+  background-color: teal;
+  border-color: #ffc168;
+  color: white;
+}
+
+
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 15;
+}
+
+.miBoton {
+  background-color: #ffc168;
+  border-color:teal;
+  color: teal;
+}
+.miBoton:hover{
+  background-color: teal;
+  border-color: #ffc168;
+  color: white;
+}
+a.navbar-brand img{
+  width: 50px;
+}
+a.navbar-brand img{
+  width: 50px;
+}
+div.GENEROS ul div li a:hover {
+  color:orange;
+}
+div.GENEROS ul div li  {
+  text-align: center;
+  margin: 0 auto;
+  background-color: black;
+  font-size: 30px;
+  font-weight: bold;
+  width: 30%;
+  text-decoration: none;
+  list-style-type: none;
+  margin-top: -3px;
+  height:90px;
+  padding-top: 20px;
+  font-family:fantasy;
+  font-size:35px;
+  text-decoration: none;
+   border-radius:50px;
+}
+
+div.GENEROS ul div.bb {
+  margin-bottom:40px;
+}
+div.GENEROS ul div.ab:hover {
+  transform: scale(1.2);
+}
+
+div.modal-footer button.btn.btn-secondary {
+  font-size:20px;
+  background-color:lightblue;
+  border-radius:25px;
+  border:1px grey solid;
+  color:black;
+}
+div.modal-footer button.inicio {
+  background-color:lightgreen;
+  font-size:23px;
+  width:90px;
+}
+div.modal-footer button.inicio:hover{
+  transform: scale(1.1);
+}
+
+div.modal-footer button.btn.btn-secondary:hover{
+  transform: scale(1.1);
+}
+footer {
+  background-color: whitesmoke;
+
+  position: absolute;
+  width: 100%;
+
+  margin-bottom:0px;
+
+  position: absolute;
+  width: 100%;
+
+
+}
+
+.Botonsesion:hover{
+  background-color: teal;
+  border-color: #ffc168;
+  color: white;
+}
+
+
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 15;
+
+}
+
+.miBoton {
+  background-color: #ffc168;
+  border-color:teal;
+  color: teal;
+}
+.miBoton:hover{
+  background-color: teal;
+  border-color: #ffc168;
+  color: white;
+}
+a.navbar-brand img{
+  width: 50px;
+}
+
+div.GENEROS li {
+  text-align: center;
+  margin: 0 auto;
+  background-color: black;
+  font-size: 30px;
+  font-weight: bold;
+  width: 25%;
+  text-decoration: none;
+  list-style-type: none;
+
+}
+footer img {
+  width: 50px;
+  margin-left: 48.5%;
+
+position:relative;
+bottom:20px;
+}
+
+
+footer p {
+  text-align: center;
+  width: 35%;
+ margin-left: 33%;
+}
+
+div.GENEROS li a {
+  color: white;
+  text-decoration: none;
+}
+
+div.modal-footer a button.register {
+  margin-right:220px;
+}
+
+
+@media only screen and (max-device-width : 480px) {
+  body {
+    background-image: url("https://travelgrafia.co/wp-content/uploads/2017/07/Puerto-nari%C3%B1o-Amazonas-Colombia.jpg")  ;
+    background-size:120% 100%;
+
+  }
+  ul.listadoGeneros {
+    margin-top:8vh;
+  }
+  footer p{
+    font-size:30px;
+    width:32%;
+    margin-left:34%;
+  }
+  footer img{
+    width:10%;
+    margin-left:46%;
+  }
+
+  div.collapse.navbar-collapse {
+    background-color:white;
+    width:100%;
+    font-size:28px
+  }
+
+  button.navbar-toggler {
+    width:10%;
+    height:10vh;;
+  }
+  div.navbar-collapse.collapse.show a img  {
+    margin-left:3vw;
+    width:10%;
+    height:10%;
+  }
+  li.nav-item{
+    margin-left:2vw;
+  }
+  form.form-inline.my-2.my-lg-0 button{
+    font-size:20px;
+  }
+  form input.form-control.mr-sm-2{
+    margin-left:2vw;
+    margin-bottom:2vw;
+    height:3vh;
+  }
+  header nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+    height:10vh;
+
+  }
+
+div.GENEROS ul div li {
+  width:70%;
+  height:35%;
+  font-size:70px;
+  padding-top:0.2vh;
+  margin:0 auto;
+}
+  div.ab {
+  width:100%;
+}
+  div.b {
+    margin-top:3%;
+  }
+
+}
+
+
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation:portrait){
+  body {
+    background-image: url("https://travelgrafia.co/wp-content/uploads/2017/07/Puerto-nari%C3%B1o-Amazonas-Colombia.jpg")  ;
+    background-size:120% 100%;
+
+  }
+  ul.listadoGeneros {
+    margin-top:8vh;
+  }
+  footer p{
+    font-size:30px;
+    width:32%;
+    margin-left:34%;
+  }
+  footer img{
+    width:10%;
+    margin-left:46%;
+  }
+
+  div.collapse.navbar-collapse {
+    background-color:white;
+    width:100%;
+    font-size:28px
+  }
+
+  button.navbar-toggler {
+    width:10%;
+    height:10vh;;
+  }
+  div.navbar-collapse.collapse.show a img  {
+    margin-left:3vw;
+    width:10%;
+    height:10%;
+  }
+  li.nav-item{
+    margin-left:2vw;
+  }
+  form.form-inline.my-2.my-lg-0 button{
+    font-size:20px;
+  }
+  form input.form-control.mr-sm-2{
+    margin-left:2vw;
+    margin-bottom:2vw;
+    height:3vh;
+  }
+  header nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+    height:10vh;
+
+  }
+
+div.GENEROS ul div li {
+  width:80%;
+  height:35%;
+  font-size:70px;
+  padding-top:0.2vh;
+  margin:0 auto;
+}
+  div.ab {
+  width:100%;
+}
+  div.b {
+    margin-top:3%;
+  }
+
+ }
