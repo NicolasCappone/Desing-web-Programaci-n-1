@@ -1,0 +1,369 @@
+*{box-sizing: border-box;
+margin:0;
+padding:0}
+
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+
+body {
+  font-family: "Nunito" , sans-serif;
+  background-image: url("https://media.moddb.com/images/groups/1/2/1488/The_Lonely_Mountain-The_Desolation_of_Smaug_Wallpaper.jpg");
+  background-attachment: fixed;
+}
+
+h1.titulofav {
+  margin-top:30px;
+  background-color:black;
+}
+ div.nombredepelicula h2 {
+   margin-top:60px;
+ }
+h1.titulofav p {
+  text-align: center;
+  color:white;
+  font-family:fantasy;
+  font-size:65px;
+}
+
+div.modal-footer button.btn.btn-secondary {
+  font-size:20px;
+  background-color:lightblue;
+  border-radius:25px;
+  border:1px grey solid;
+  color:black;
+}
+div.modal-footer button.inicio {
+  background-color:lightgreen;
+  font-size:23px;
+  width:90px;
+}
+div.modal-footer button.inicio:hover{
+  transform: scale(1.1);
+}
+div.modal-footer button.btn.btn-secondary:hover{
+  transform: scale(1.1);
+}
+
+div.genero1:hover {
+  transform:scale(1.2);
+}
+div.genero1 img{
+  width:50px;
+  height:53px;
+  border-radius:10px;
+}
+div.genero1 {
+  margin-top:20px;
+  border-radius:30px;
+  border:10px black solid;
+  background-color:black;
+  width:75px;
+  margin-left:47%;
+  margin-bottom:50px;
+}
+h3.rehacer p {
+  font-size:40px;
+}
+h3.rehacer {
+  width:30%;
+  margin:0 auto;
+  border-radius:30px;
+  height:70px;
+  padding-top:7px;
+  font-family:fantasy;
+  text-align:center;
+  margin-top:120px;
+  text-transform:uppercase;
+}
+button.btn.btn-outline-success.my-2.my-sm-0.miBotonn:hover{
+  transform: scale(1.2);
+}
+button.btn.btn-outline-success.my-2.my-sm-0.miBotonn {
+  margin-left:46%;
+  border-radius:30px;
+  font-size:20px;
+  position:relative;
+  top:10px;
+  background-color:green;
+  color:white;
+
+}
+input.form-controle {
+  width:40%;
+  margin-left:30%;
+  margin-top:10px;
+  border-radius: 30px;
+  height:50px;
+}
+
+div.genero img {
+  display:block;
+    margin: 0 auto;
+    border:black 3px solid;
+    width:486px;
+    height:738px;
+}
+div.nombredepelicula {
+  background-color:white;
+  opacity:0.8;
+  filter:alpha(opacity=60); /* IE < 9.0 */
+width:486px;
+margin: 0 auto;
+font-family: fantasy;
+}
+
+
+h2  {
+  color:black;
+  text-align:center;
+  font-size:40px;
+  font-family:fantasy;
+
+}
+li.generoprimero{
+  text-align: center;
+  margin-top: 20px;
+}
+
+a.navbar-brand img{
+  width: 50px;
+}
+
+
+footer {
+  background-color: whitesmoke;
+
+}
+footer img {
+  width: 50px;
+  margin-left: 48.5%;
+
+  position:relative;
+  bottom:20px;
+}
+
+header {
+  top: 0;
+  width: 100%;
+  z-index: 15;
+  position: fixed;
+}
+.Botonsesion {
+  margin-left: 5px;
+  background-color: #ffc168;
+  border-color:teal;
+  color: teal;
+}
+
+.Botonsesion:hover{
+  background-color: teal;
+  border-color: #ffc168;
+  color: white;
+}
+
+.miBoton {
+  background-color: #ffc168;
+  border-color:teal;
+  color: teal;
+}
+.miBoton:hover{
+  background-color: teal;
+  border-color: #ffc168;
+  color: white;
+}
+a.navbar-brand img{
+  width: 50px;
+}
+
+footer p {
+  text-align: center;
+  width: 35%;
+ margin-left: 33%;
+
+}
+
+div.modal-footer a button.register {
+  margin-right:220px;
+}
+
+@media only screen  and (max-device-width : 480px) {
+div.favorito img {
+  width:82%;
+  height:50vh;
+}
+div.genero img {
+  width:82%;
+  height:50vh;
+}
+footer {
+  position:absolute;
+  bottom:0;
+  width:100%;
+}
+div.nombredepelicula h2 {
+  font-size:70px;
+  margin-top:10vh;
+}
+div.nombredepelicula {
+  width:82%;
+}
+h1.titulofav p {
+  font-size:100px;
+  margin-left:28%;
+  margin-top:10vh;
+ }
+h3.rehacer{
+  color: white;
+  background-color: black;
+}
+  body {
+    background-image: url("https://travelgrafia.co/wp-content/uploads/2017/07/Puerto-nari%C3%B1o-Amazonas-Colombia.jpg")  ;
+    background-size:120% 100%;
+ }
+div.favorito1 {
+  width:12%;
+  height:5vh;
+  border-radius:70px;
+  margin-left:45%;
+}
+div.favorito1 img {
+  width:60%;
+  position:relative;
+  top:1vh;
+  left:1.5vw;
+}
+
+
+div.collapse.navbar-collapse {
+  background-color:white;
+  width:100%;
+  font-size:28px
+}
+
+button.navbar-toggler {
+  width:10%;
+  height:10vh;;
+}
+div.navbar-collapse.collapse.show a img  {
+  margin-left:3vw;
+  width:10%;
+  height:10%;
+}
+li.nav-item{
+  margin-left:2vw;
+}
+form.form-inline.my-2.my-lg-0 button{
+  font-size:20px;
+}
+form input.form-control.mr-sm-2{
+  margin-left:2vw;
+  margin-bottom:2vw;
+  height:3vh;
+}
+header nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+  height:10vh;
+
+}
+}
+
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation:portrait){
+  div.favorito img {
+    width:1200px;
+
+  }
+  body {
+    background-image: url("https://travelgrafia.co/wp-content/uploads/2017/07/Puerto-nari%C3%B1o-Amazonas-Colombia.jpg")  ;
+    background-size:120% 100%;
+ }
+  h3.rehacer {
+    margin-top:200px;
+    width:50%;
+   height:85px;
+  }
+  form.resultado button.btn.btn-outline-success.my-2.my-sm-0.miBotonn {
+    width:15%;
+    height:60px;
+    margin-left:420px;
+  }
+  input.form-controle {
+    width:60%;
+    height:50px;
+    margin-left:20%;
+  }
+  h3.rehacer p {
+    font-size:60px;
+  }
+  div.genero1 {
+    width:10%;
+    height:100px;
+    border-radius:90px;
+    margin-left:45%;
+  }
+  div.genero1 img {
+    width:100%;
+    height:85%;
+    position:relative;
+    top:5px;
+
+  }
+  div.genero img {
+    width:80%;
+    height:1100px;
+  }
+  div.nombredepelicula h2 {
+    font-size:70px;
+    margin-top:10vh;
+  }
+  div.nombredepelicula  {
+    width:80%;
+  }
+  h1.titulofav p{
+    font-size:100px;
+    margin-top:10px;
+  }
+  footer p{
+    font-size:30px;
+    width:32%;
+    margin-left:34%;
+  }
+  footer img{
+    width:10%;
+    margin-left:46%;
+  }
+  input.form-control.mr-sm-2 {
+    margin-top:3px;
+  }
+  div.collapse.navbar-collapse {
+    background-color:white;
+    width:100%;
+    font-size:28px
+  }
+
+  button.navbar-toggler {
+    width:10%;
+    height:60px;;
+  }
+  div.navbar-collapse.collapse.show a img  {
+    margin-left:20px;
+    width:10%;
+    height:10%;
+  }
+  li.nav-item{
+    margin-left:20px;
+  }
+  form.form-inline.my-2.my-lg-0 button{
+    font-size:20px;
+  }
+  form input.form-control.mr-sm-2{
+    margin-left:18px;
+    margin-bottom:6px;
+    height:50px;
+  }
+  header nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+    height:180px;
+
+  }
+input.form-control {
+    margin-top:100px;
+  }
+}
